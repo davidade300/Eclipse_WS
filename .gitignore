@@ -1,0 +1,6 @@
+.git/
+.metadata/
+*.class
+*.jar
+bin/
+Nelio_Java/src/entitiesEnums/07-enumeracoes-composicao.pdf

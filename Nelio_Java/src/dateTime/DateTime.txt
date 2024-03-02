@@ -1,0 +1,19 @@
+https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+https://docs.oracle.com/javase/10/docs/api/java/util/Date.html
+https://docs.oracle.com/javase/10/docs/api/java/time/format/DateTimeFormatter.html
+
+Principais tipos:
+
+	Data-hora local:
+		LocalDate -> dia mes ano
+		LocalDateTime -> dia mes ano hora
+	
+	Data-hora global:
+		Instant	-> data com fuso-horario
+	
+	Duração:
+		Duration
+		
+	Outros:
+		ZoneId
+		ChronoUnit
