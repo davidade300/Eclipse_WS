@@ -25,8 +25,9 @@ public class SavingsAccount extends Account{
 		balance +=  balance * interestRate;
 	}
 
+	// adicionando final ao metodo, classes que herdem esta classe não poderão sobrepor esse método
 	@Override
-	public void withdraw(double ammount) {
+	public final void withdraw(double ammount) {
 		balance -= ammount;
 	}
 	

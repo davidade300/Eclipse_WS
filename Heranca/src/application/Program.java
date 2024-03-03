@@ -8,12 +8,12 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		BusinessAccount bacc = new BusinessAccount();
-		Account acc = new Account(1001, "Alex", 0.0);
+		//BusinessAccount bacc = new BusinessAccount();
+		//Account acc = new Account(1001, "Alex", 0.0);
 		
 		// UPCASTING
 		
-		Account acc9 = bacc;
+		//Account acc9 = bacc;
 		Account acc22 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
 		Account acc33 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
 		// nao e possivel chamar acc2.loan() pois ela foi declarada como Account e nao como
